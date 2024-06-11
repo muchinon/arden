@@ -80,4 +80,30 @@ header {
 
 .header-btns {
     margin-top: 2rem;
+    display: flex;
+    
+}
+
+#play-btn {
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 10px;
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: #ffffff;
+    font-size: 20px;
+    background: #5310BE;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+#play-btn:hover {
+    background: #9cc6e0;
+  background-image: -webkit-linear-gradient(top, #9cc6e0, #9c9ce8);
+  background-image: -moz-linear-gradient(top, #9cc6e0, #9c9ce8);
+  background-image: -ms-linear-gradient(top, #9cc6e0, #9c9ce8);
+  background-image: -o-linear-gradient(top, #9cc6e0, #9c9ce8);
+  background-image: linear-gradient(to bottom, #9cc6e0, #9c9ce8);
+  text-decoration: none;
 }
