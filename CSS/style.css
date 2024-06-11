@@ -10,7 +10,7 @@ header {
         url("../img/header2.jpg");
 
     width: 100%;
-    height: 100vh;
+    height: 80vh;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -21,10 +21,11 @@ header {
     /* padding-bottom: 3rem; */
 }
 
-.logo img{
+.logo img {
     width: 150px;
     height: auto;
-    
+    padding-left: 5rem;
+
 }
 
 .nav {
@@ -51,7 +52,7 @@ header {
 
 .header-text {
     margin-top: 6rem;
-    margin-left: 3rem;
+    padding-left: 5rem;
 }
 
 .header-text h1 {
@@ -59,7 +60,7 @@ header {
     font-weight: 400;
     font-style: normal;
     font-size: 35pt;
-    color: #FFB9EE;
+    color: #CC99FF;
 }
 
 #earn-cash {
@@ -81,10 +82,11 @@ header {
 .header-btns {
     margin-top: 2rem;
     display: flex;
-    
+    gap: 10px;
+
 }
 
-#play-btn {
+.play-btn {
     -webkit-border-radius: 10;
     -moz-border-radius: 10;
     border-radius: 10px;
@@ -93,17 +95,79 @@ header {
     font-style: normal;
     color: #ffffff;
     font-size: 20px;
-    background: #5310BE;
+    background: #333366;
     padding: 10px 20px 10px 20px;
     text-decoration: none;
 }
 
-#play-btn:hover {
+.play-btn:hover {
     background: #9cc6e0;
-  background-image: -webkit-linear-gradient(top, #9cc6e0, #9c9ce8);
-  background-image: -moz-linear-gradient(top, #9cc6e0, #9c9ce8);
-  background-image: -ms-linear-gradient(top, #9cc6e0, #9c9ce8);
-  background-image: -o-linear-gradient(top, #9cc6e0, #9c9ce8);
-  background-image: linear-gradient(to bottom, #9cc6e0, #9c9ce8);
-  text-decoration: none;
+    background-image: -webkit-linear-gradient(top, #9cc6e0, #9c9ce8);
+    background-image: -moz-linear-gradient(top, #9cc6e0, #9c9ce8);
+    background-image: -ms-linear-gradient(top, #9cc6e0, #9c9ce8);
+    background-image: -o-linear-gradient(top, #9cc6e0, #9c9ce8);
+    background-image: linear-gradient(to bottom, #9cc6e0, #9c9ce8);
+    text-decoration: none;
+}
+
+#play-section {
+    background-color: #E8E7EC;
+    height: 60vh;
+    #EAECF3
+}
+
+#play-section h2 {
+    color: black;
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25pt;
+    text-align: center;
+    padding-top: 4rem;
+
+}
+
+#play-section p {
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+#play-now {
+    align-items: center;
+    margin-left: 47rem;
+    margin-top: 21rem;
+}
+
+#about-section {
+    background-color: #2B3E50;
+    height: 70vh;
+    display: flex;
+}
+
+#about-section h2 {
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25pt;
+    color: #CACBCD;
+}
+
+#about-text {
+    padding-left: 5rem;
+    padding-top: 8rem;
+}
+
+#about-img img {
+    height: 70vh;
+    padding-right: 5rem;
+}
+
+#terms-btn {
+    margin-top: 3rem;
+}
+
+#our-mission {
+    margin-top: 2rem;
 }
