@@ -3,6 +3,47 @@
     padding: 0;
 }
 
+.wrapper {
+    width: 1664px;
+    /* padding: 100px 0; */
+    margin: 0 auto;
+}
+
+@media (max-width: 600px) {
+    .wrapper {
+        width: 100%;
+
+    }
+}
+
+@media (min-width: 601px) {
+    .wrapper {
+        width: 100%;
+
+    }
+}
+
+@media (min-width: 768px) {
+    .wrapper {
+        width: 100%;
+
+    }
+}
+
+@media (min-width: 992px) {
+    .wrapper {
+        width: 100%;
+
+    }
+}
+
+@media (min-width: px) {
+    .wrapper {
+        width: 100%;
+
+    }
+}
+
 header {
 
     background-image: linear-gradient(rgba(84, 82, 82, 0.5),
@@ -139,8 +180,25 @@ header {
 
 #play-now {
     align-items: center;
-    margin-left: 37rem;
-    margin-top: 21rem;
+    margin: 20px auto;
+    justify-content: center;
+    display: block;
+    margin-top: 5rem;
+}
+
+.mario {
+    margin-left: 5rem;
+    margin-top: 5rem;
+}
+
+.pac {
+    margin-left: 5rem;
+    margin-top: 5rem;
+}
+
+.games {
+    display: flex;
+    justify-content: center;
 }
 
 #about-section {
@@ -199,7 +257,7 @@ header {
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
     margin-top: 1rem;
-    
+
 }
 
 #brands-logos {
@@ -214,6 +272,42 @@ header {
 #brands-logos img {
     object-fit: contain;
     width: 150px;
-   height: 180px;
-   
+    height: 180px;
+
+}
+
+.container {
+    max-width: 1664px;
+    background-color: #2B3E50;
+    margin: auto;
+    height: 50vh;
+
+}
+
+.ul {
+    list-style: none;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.footer-col {
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer-col h4 {
+    font-size: 18px;
+    color: white;
+    position: relative;
+
+}
+
+.footer-col ul li a {
+    text-decoration: none;
+    color: #E8E7EC;
+    font-size: 16px;
 }
