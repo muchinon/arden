@@ -10,7 +10,7 @@ header {
         url("../img/header2.jpg");
 
     width: 100%;
-    height: 80vh;
+    height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -112,8 +112,8 @@ header {
 
 #play-section {
     background-color: #E8E7EC;
-    height: 60vh;
-    #EAECF3
+    height: 80vh;
+    
 }
 
 #play-section h2 {
@@ -123,7 +123,7 @@ header {
     font-style: normal;
     font-size: 25pt;
     text-align: center;
-    padding-top: 4rem;
+    padding-top: 1rem;
 
 }
 
@@ -136,7 +136,7 @@ header {
 
 #play-now {
     align-items: center;
-    margin-left: 47rem;
+    margin-left: 38rem;
     margin-top: 21rem;
 }
 
@@ -156,7 +156,7 @@ header {
 
 #about-text {
     padding-left: 5rem;
-    padding-top: 8rem;
+    padding-top: 1rem;
 }
 
 #about-img img {
@@ -170,4 +170,8 @@ header {
 
 #our-mission {
     margin-top: 2rem;
+}
+
+#partners-section {
+    background-color: ;
 }
