@@ -114,7 +114,7 @@ header {
 
 #play-section {
     background-color: #E8E7EC;
-    height: 80vh;
+    height: 100vh;
 
 }
 
@@ -125,7 +125,7 @@ header {
     font-style: normal;
     font-size: 25pt;
     text-align: center;
-    padding-top: 1rem;
+    padding-top: 4rem;
 
 }
 
@@ -138,13 +138,13 @@ header {
 
 #play-now {
     align-items: center;
-    margin-left: 38rem;
+    margin-left: 37rem;
     margin-top: 21rem;
 }
 
 #about-section {
     background-color: #2B3E50;
-    height: 70vh;
+    height: 100vh;
     display: flex;
 }
 
@@ -154,6 +154,7 @@ header {
     font-style: normal;
     font-size: 25pt;
     color: #CACBCD;
+    padding-top: 4rem;
 }
 
 #about-section p {
@@ -168,6 +169,7 @@ header {
 #about-img img {
     height: 70vh;
     padding-right: 5rem;
+    padding-top: 5rem;
 }
 
 #terms-btn {
@@ -189,7 +191,7 @@ header {
     font-style: normal;
     font-size: 25pt;
     text-align: center;
-    padding-top: 1rem;
+    padding-top: 4rem;
 }
 
 #partners-section p {
@@ -203,14 +205,14 @@ header {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    padding-left: 10rem;
-    grid-column-gap: -15px;
+    padding-left: 13rem;
+    /* grid-column-gap: px; */
     /* grid-row-gap: 10px; */
 }
 
 #brands-logos img {
     object-fit: contain;
-    width: 200px;
-   height: 200px;
+    width: 150px;
+   height: 180px;
    
 }
