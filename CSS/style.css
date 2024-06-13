@@ -79,6 +79,7 @@ header {
     color: white;
     font-family: 'Courier New', Courier, monospace;
     font-weight: 300;
+    gap: 30px;
 }
 
 .header-btns {
