@@ -3,10 +3,10 @@
     padding: 0;
 }
 
-.wrapper {
+/* .wrapper {
     width: 1664px;
     margin: 0 auto;
-}
+} */
 
 /* body {
     min-height: 100vh;
@@ -184,14 +184,14 @@ header {
     font-weight: 400;
     font-style: normal;
     font-size: 25pt;
-    color: #CACBCD;
+    color: rgb(176, 97, 170);
     padding-top: 4rem;
 }
 
 #about-section p {
     font-family: 'Courier New', Courier, monospace;
-    color: rgb(176, 97, 170);
-    font-size: 20pt;
+    color:  #CACBCD;
+    font-size: 16pt;
 }
 
 #about-text {
