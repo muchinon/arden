@@ -90,7 +90,7 @@ header {
     font-size: 15pt;
     color: white;
     font-family: 'Courier New', Courier, monospace;
-    font-size: 20pt;
+    font-size: 15pt;
     gap: 30px;
 }
 
@@ -191,7 +191,7 @@ header {
 #about-section p {
     font-family: 'Courier New', Courier, monospace;
     color:  #CACBCD;
-    font-size: 14pt;
+    font-size: 13pt;
 }
 
 #about-text {
